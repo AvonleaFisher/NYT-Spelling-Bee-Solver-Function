@@ -14,6 +14,9 @@ The contents of this repository comprise a program to automatically solve the [N
 * [words.txt](https://github.com/AvonleaFisher/NYT-Spelling-Bee-Solver-Function/blob/main/words.txt): A text file containing approximately 25,500 English words.
 * [NYT Spelling Bee Solver.ipynb](https://github.com/AvonleaFisher/NYT-Spelling-Bee-Solver-Function/blob/main/NYT%20Spelling%20Bee%20Solver.ipynb): A Python notebook containing code for valid word list generation.
 
+## Limitations
+The text file contains a non-exhaustive set of words, which means that some words that are valid for a Spelling Bee puzzle may not appear in the solver's output. Additionally, not all of the output words will be valid entries for the puzzle. The puzzles are curated to exclude highly obscure words, which are not systematically excluded by the solver.
+
 ## For Further Information
 Please contact me at mailto:fisheravonlea@gmail.com or via my [LinkedIn profile](https://www.linkedin.com/in/avonlea-fisher/).
 
