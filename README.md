@@ -3,6 +3,8 @@ A function to return valid words to solve the NYT Spelling Bee puzzle
 
 <b>Author:</b> Avonlea Fisher
 
+<b>Blog Post: </b> [Solving the New York Times Spelling Bee Puzzle in Python](https://towardsdatascience.com/solving-the-new-york-times-spelling-bee-puzzle-in-python-511bcb5ea65e), published in [Towards Data Science](https://towardsdatascience.com/)
+
 ## About 
 The contents of this repository comprise a program to automatically solve the [New York Times Spelling Bee](https://www.nytimes.com/puzzles/spelling-bee) given a set of constraints defined by the puzzle. A puzzle contains seven letters in a 'hive,' including a 'center letter.' In the below example puzzle, the center letter is 'L.' The goal is to create the maximum number of words that must contain the center letter and may only contain letters within the hive (repeats are allowed). Valid words must be relatively common and at least four letters long. In the puzzle below, 'alfalfa' would be an example of a valid word, while 'can' would be invalid (too short, no center letter). 
 
